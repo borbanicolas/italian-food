@@ -1,0 +1,10 @@
+*{
+    text-decoration: none;
+    list-style: none;
+}
+
+.background-container{
+    margin: 0;
+    height: calc(100vh + 88px);
+    background-image: url(../assets/backgroundf.png);
+}

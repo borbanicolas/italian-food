@@ -1,0 +1,36 @@
+.header{
+    padding-top: 35px;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+.menu{
+
+    display: flex;
+    justify-content: space-between;
+    
+}
+.menu-item{
+    margin-right: 45px;
+}
+.menu-item a{
+    font: bolder;
+    font-size: 18px;
+    color: white;
+}
+#img-search{
+   padding-right: 15px;
+    height: 30px;
+}
+#searchText{
+    width: 100px;
+    opacity: 0;
+}
+#search{
+    height: 40px;
+    margin-right: 40px;
+    background-color: white;
+    border-radius: 6rem;
+    display: flex;
+    align-items:center;
+}
