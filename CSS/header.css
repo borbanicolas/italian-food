@@ -1,21 +1,24 @@
 .header{
-    padding-top: 35px;
+    padding-top: 30px;
     display: flex;
     width: 100%;
     justify-content: flex-end;
 }
 .menu{
-
+    width: 37%;
     display: flex;
     justify-content: space-between;
     
 }
 .menu-item{
-    margin-right: 45px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bolder;
+    letter-spacing: .138rem;
 }
 .menu-item a{
     font: bolder;
-    font-size: 18px;
+    font-size: 14px;
     color: white;
 }
 #img-search{
@@ -27,6 +30,7 @@
     opacity: 0;
 }
 #search{
+    margin-left: 40px;
     height: 40px;
     margin-right: 40px;
     background-color: white;

@@ -23,32 +23,39 @@
   
 }
 .banner h1{
+    font-size: 20px;
+    font-style: italic;
+    letter-spacing: 3px;
     padding-left: 55px;
     color: white;
-    letter-spacing: 4px;
     padding-bottom: 25px;
 }
 .banner button{
+    margin-bottom: 20px;
     font-size: large;
     font-weight: bolder;
     margin-left: 55px;
-    width: 150px;
+    width: 170px;
     height: 40px;
     border-radius: 2rem;
+    align-items: center;
+    color: rgb(49, 49, 49);
+   
 }
 .banner p{
+    letter-spacing: .09rem;
     margin-left: 55px;
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 15px;
+    font-weight: 600;
     color: white;
     font-style: italic;
 }
 
 .banner-img{
-   padding-top: 65px;
+   padding-top: 80px;
     
 }
 .banner-img img{
     
-    width: 600px;
+    width: 610px;
 }
