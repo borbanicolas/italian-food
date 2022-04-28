@@ -2,8 +2,42 @@
 
  /*header/banner*/
 
+.hamburguer{
+     margin: 35px;
+     opacity: 1;
+     z-index: 99999999;
+ }
 .menu{
-    opacity: 0;
+    display: none;
+    align-items: center;
+   
+
+}
+.active, menu{
+    margin: 0;
+    flex-direction: column;
+    position: fixed;
+    background-color:  rgb(49, 49, 49);
+    opacity: 1;
+    width: 100%;
+    height: calc(100vh);
+    display: flex;
+    z-index: 9999999;
+    align-items: center;
+    justify-content: center;
+}
+.menu-item {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    margin-top: 50px;
+}
+.menu-item a{
+
+   
+    
 }
 .search{
     opacity: 0;
@@ -31,10 +65,9 @@
 }
 .logo{
     padding: 0;
-    padding-right: 310px;
-    padding-bottom: 80px;
     width: 70px;
-    z-index: 11111;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
 .title{
     width: 340px;
