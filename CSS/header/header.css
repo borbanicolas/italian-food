@@ -20,21 +20,43 @@
     font: bolder;
     font-size: 14px;
     color: white;
+    transition: all .5s;
 }
+.menu-item a:hover{
+    color: var(--white-opatacity);
+}
+
+
 #img-search{
-   padding-right: 15px;
-    height: 30px;
+    padding-right: 15px;
+    height: 20px;
 }
-#searchText{
-    width: 100px;
+#img-search:hover{
+    cursor: pointer;
+}
+.searchText{
+    width: 80px;
     opacity: 0;
+    border: none;
+    transition: all .1s;
 }
-#search{
+.search{
+    display: flex;
+    justify-content: flex-end;
     margin-left: 40px;
+    width: 100px;
     height: 40px;
     margin-right: 40px;
     background-color: white;
     border-radius: 6rem;
     display: flex;
     align-items:center;
+    transition: all .2s;
+}
+
+.txtActive{
+    opacity: 1;
+}
+.activeBar{
+    width: 160px;
 }

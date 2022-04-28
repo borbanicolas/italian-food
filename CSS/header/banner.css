@@ -1,4 +1,9 @@
 
+.background-container{
+    margin: 0;
+    height: calc(100vh + 110px);
+    background-image: url(../../assets/backgroundf.png);
+}
 .banner{
     display: flex;
     justify-content: space-between;
@@ -32,15 +37,7 @@
 }
 .banner button{
     margin-bottom: 20px;
-    font-size: large;
-    font-weight: bolder;
-    margin-left: 55px;
-    width: 170px;
-    height: 40px;
-    border-radius: 2rem;
-    align-items: center;
-    color: rgb(49, 49, 49);
-   
+    margin-left: 55px;  
 }
 .banner p{
     letter-spacing: .09rem;

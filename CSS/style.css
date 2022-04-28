@@ -1,14 +1,24 @@
-@import url(header.css);
-@import url(banner.css);
-
+@import url(header/header.css);
+@import url(header/banner.css);
+@import url(config/root.css);
 *{
     text-decoration: none;
     list-style: none;
     font-family: 'Poppins', sans-serif;
 }
 
-.background-container{
-    margin: 0;
-    height: calc(100vh + 110px);
-    background-image: url(../assets/backgroundf.png);
+button{
+    font-size: large;
+    font-weight: bolder;
+    width: 170px;
+    height: 45px;
+    border-radius: 2rem;
+    align-items: center;
+    color: rgb(49, 49, 49);  
+    transition: all .1s ;
+}
+button:hover{
+    cursor: pointer;
+    background-color: var(--white-opatacity);
+    
 }
