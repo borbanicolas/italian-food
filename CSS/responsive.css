@@ -1,0 +1,63 @@
+@media( max-width:500px) {
+    
+
+.menu{
+    opacity: 0;
+}
+.search{
+    opacity: 0;
+}
+
+.header{
+    padding-top: 0;
+}
+
+.background-container{
+    height: calc(100vh + 400px);
+}
+.banner{
+    flex-direction: column;
+    
+}
+.banner .info{
+    text-align: center;
+    width: 100%;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+.logo{
+    padding: 0;
+    padding-right: 310px;
+    padding-bottom: 80px;
+    width: 70px;
+    z-index: 11111;
+}
+.title{
+    width: 420px;
+}
+
+.banner button{
+    margin-bottom: 0;
+    margin-left: 0;
+  
+}
+.banner h1{
+    
+    padding-left: 0;
+    color: white;
+   
+}
+.banner p{
+    margin-left: 0;
+}
+
+.banner-img .promo-img{
+    padding-top: 0;
+    width: 99.7%;
+    position: absolute;
+    z-index: 999;
+     
+ }
+}

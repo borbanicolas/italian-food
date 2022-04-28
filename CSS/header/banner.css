@@ -37,7 +37,8 @@
 }
 .banner button{
     margin-bottom: 20px;
-    margin-left: 55px;  
+    margin-left: 55px;
+  
 }
 .banner p{
     letter-spacing: .09rem;
@@ -48,11 +49,7 @@
     font-style: italic;
 }
 
-.banner-img{
-   padding-top: 80px;
-    
-}
-.banner-img img{
-    
-    width: 610px;
+.banner-img .promo-img{
+    width: 100%;
+    padding-top: 50px;
 }
