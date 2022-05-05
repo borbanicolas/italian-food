@@ -1,3 +1,8 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
 html{
     margin: 0;
     padding: 0;
@@ -9,4 +14,20 @@ body{
 textarea:focus, input:focus {
     box-shadow: 0 0 0 0;
     outline: 0;
+}
+
+button{
+    font-size: 21px;
+    font-weight: bolder;
+    width: 190px;
+    height: 45px;
+    border-radius: 1rem;
+    align-items: center;
+    color: var(--background-grey);  
+    transition: all .1s ;
+}
+button:hover{
+    cursor: pointer;
+    background-color: var(--white-opatacity);
+    
 }

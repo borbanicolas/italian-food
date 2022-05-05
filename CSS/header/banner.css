@@ -10,8 +10,8 @@
 }
 
 .banner .info{
-    padding: 20px;
-    padding-top: 80px;
+   
+    padding: 40px;
     width: 40%;
     display: flex;
     flex-direction: column;
@@ -19,37 +19,42 @@
 }
 .logo{
     padding-left: 55px;
-    width: 110px;
-    padding-bottom: 30px;
+    width: 120px;
+    padding-bottom: 20px;
 }
 .title{
-  padding-bottom: 40px;
-  width: 520px;
+  padding-bottom: 60px;
+  width: 565px;
   
 }
 .banner h1{
-    font-size: 20px;
+    font-size: 23px;
     font-style: italic;
-    letter-spacing: 3px;
+    letter-spacing: 4px;
     padding-left: 55px;
     color: white;
     padding-bottom: 25px;
 }
 .banner button{
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     margin-left: 55px;
   
 }
 .banner p{
-    letter-spacing: .09rem;
+    color: var(--white-opatacity);
+    letter-spacing: .12rem;
     margin-left: 55px;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 600;
-    color: white;
     font-style: italic;
 }
-
+.banner-img {
+    height: calc(100vh + 90px);
+    display: flex;
+    align-items: flex-end;
+   
+}
 .banner-img .promo-img{
-    width: 100%;
-    padding-top: 50px;
+    width: 670px;
+    
 }

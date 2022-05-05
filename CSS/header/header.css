@@ -1,11 +1,12 @@
 .header{
-    padding-top: 30px;
+    height: 120px;
     display: flex;
     width: 100%;
     justify-content: flex-end;
+    align-items: center;
 }
 .menu{
-    width: 37%;
+    width: 530px;
     display: flex;
     justify-content: space-between;
     transition: all .1s;
@@ -45,8 +46,8 @@
     justify-content: flex-end;
     margin-left: 40px;
     width: 100px;
-    height: 40px;
-    margin-right: 40px;
+    height: 50px;
+   
     background-color: white;
     border-radius: 6rem;
     display: flex;

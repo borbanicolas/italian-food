@@ -5,24 +5,3 @@
 
 
 
-*{
-    text-decoration: none;
-    list-style: none;
-    font-family: 'Poppins', sans-serif;
-}
-
-button{
-    font-size: large;
-    font-weight: bolder;
-    width: 170px;
-    height: 45px;
-    border-radius: 2rem;
-    align-items: center;
-    color: rgb(49, 49, 49);  
-    transition: all .1s ;
-}
-button:hover{
-    cursor: pointer;
-    background-color: var(--white-opatacity);
-    
-}
