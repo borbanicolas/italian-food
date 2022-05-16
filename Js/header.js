@@ -1,4 +1,4 @@
-let activeSearch = document.querySelector("#img-search")
+let activeSearch = document.getElementById("img-search")
 let searchText = document.querySelector(".searchText")
 let searchBar = document.querySelector(".search")
 

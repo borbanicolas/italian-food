@@ -1,4 +1,8 @@
 :root{
     --white-opatacity: #bbb7b4;
     --background-grey: #393c3e;
+    --background-main:#212429 ; 
+}
+html{
+    width: auto;
 }

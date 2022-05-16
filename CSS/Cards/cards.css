@@ -1,0 +1,38 @@
+@import url(card-row.css);
+@import url(card-title.css);
+
+
+.cards{
+    height: 940px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.description{
+ padding-left: 58px;
+}
+.card-row h3{
+    color: var(--background-grey);
+    font-size: 17px;
+    font-weight: bolder;
+   
+}
+
+.card p {
+    color: var(--background-grey);
+    padding-top: 20px;
+    line-height: 25px;
+}
+.cards button{
+    margin-top: 80px;
+    background-color: var(--background-grey);
+    color: var(--white-opatacity);
+    transition: all .5s;
+    text-transform: uppercase;
+}
+.cards button:hover{
+    background-color: var(--white-opatacity);
+    color: var(--background-grey);
+    cursor: pointer;
+}

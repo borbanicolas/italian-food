@@ -1,0 +1,16 @@
+.info-title img{
+    padding-top: 50px;
+    width: 670px;
+}
+.description-text{
+    display: flex;
+    width: 800px;
+    justify-content: space-around;
+    padding: 55px 185px 85px 185px;
+    color: var(--white-opatacity);
+    font-size: 15px;
+    font-weight: 600;
+}
+.description-text p{
+    width: 380px;
+}

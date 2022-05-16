@@ -1,0 +1,14 @@
+.card-title{
+    padding-top: 33px;
+ 
+}.card-title img{
+    width: 670px;
+}
+.cards .p{
+    width: 600px;
+    text-align: center;
+    padding-bottom: 98px;
+    color: var(--background-grey);
+    letter-spacing: .12rem;
+    line-height: 20px;
+}

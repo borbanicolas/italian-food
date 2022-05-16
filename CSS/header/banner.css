@@ -2,18 +2,20 @@
 .background-container{
     margin: 0;
     height: calc(100vh + 140px);
+    width: auto;
     background-image: url(../../assets/backgroundf.png);
 }
 .banner{
     margin-top:20px;
+    height: calc(860px - 140px);
     display: flex;
     justify-content: space-between;
-    height: calc(100vh + 70px);
+    
 }
 
 .banner .info{
-    
-    width: 680px;
+    width:48%;
+    height: 600px;
     margin-left: 45px;
     display: flex;
     flex-direction: column;
@@ -52,15 +54,13 @@
     padding-right: 50px;
 }
 .banner-img {
-    height: calc(100vh + 90px);
+    padding-top: 15px;
+    height: calc(100vh + 140px);
     display: flex;
     align-items: center;
    
    
 }
-.banner-img .promo-img{
-   width: 650px;
-   padding-bottom: 38px;
-   height: auto;
-   z-index: 555;
+.banner-img img{
+    height: auto;
 }

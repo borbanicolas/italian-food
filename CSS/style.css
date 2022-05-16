@@ -1,7 +1,9 @@
+@import url(config/root.css);
 @import url(header/header.css);
 @import url(header/banner.css);
-@import url(config/root.css);
 @import url(header/hamburguer.css);
+@import url(Cards/cards.css);
+@import url(info/info.css);
 
 
 

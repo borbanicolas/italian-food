@@ -23,11 +23,16 @@ button{
     height: 45px;
     border-radius: 1rem;
     align-items: center;
-    color: var(--background-grey);  
-    transition: all .1s ;
+    color: var(--background-grey);
+    text-transform: uppercase;  
+    border: none;
+    transition: all .5s ;
 }
 button:hover{
     cursor: pointer;
-    background-color: var(--white-opatacity);
+    background: var(--white-opatacity);
     
+}
+section{
+    padding: 0;
 }
